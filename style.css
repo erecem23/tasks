@@ -4,19 +4,14 @@
   margin:0;
 }
 
-header{
-  font-size:20px;
-  height:20%;
-}
-
 header>h1{
-  font-size:55px;
+  font-size:5vw; /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
   display:inline-block;
 }
 #image{
   background:url(./assets/design1_image2.jpg);
-  height:500px;
-  background-size:100% 100%;
+  height:550px;
+  background-size:contain;
   background-position:center;
   background-repeat:no-repeat;
 background-attachment:fixed;
@@ -36,7 +31,7 @@ nav{
  top:-2px;
  right:55px;
  position:absolute;
-  text-align:right;
+ text-align:right;
 }
 nav>a{
  background-color:rgb(108, 216, 87);
@@ -51,7 +46,7 @@ nav>a{
 #titulomain{
   width:100%;
   margin-bottom:60px;
-  font-size:40px;
+  font-size:2vw; /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
   border:2px solid gray;
   background-color:black;
   color:white; 
@@ -61,15 +56,17 @@ nav>a{
 }
 #cuerpo{
 margin-left:50px;
-list-style:none;
+
 display:flex;
 }
 #cuerpo2{
  font-size:30px;
   margin-left:100px;
+ 
 }
 article>ul{
   margin-bottom:15px;
+  list-style:none;
 }
 .about-espaciado>h2{
 margin-top:45px;
