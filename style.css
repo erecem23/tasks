@@ -14,7 +14,7 @@ header>h1{
   display:inline-block;
 }
 #image{
-  background:url(./img/design1_image1.jpg);
+  background:url(./assets/design1_image2.jpg);
   height:500px;
   background-size:100% 100%;
   background-position:center;
@@ -25,7 +25,7 @@ position:relative;
 
 #logo{
 
- /* background:url(./img/LogoMightyducks-01.png);
+ /* background:url(./assets/Logo_Mighty ducks-01.png);
   background-repeat: no-repeat;
   background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
   height:300px;
