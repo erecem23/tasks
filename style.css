@@ -3,9 +3,12 @@
   padding:0;
   margin:0;
 }
+
 header>h1{
 font-size:5vw; /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
+
 }
+
 .image{
   background:url(./assets/design1_image2.jpg);
   height:650px;
@@ -15,6 +18,7 @@ font-size:5vw; /* lo deje en vw porque si me fijo en mi pc con px se ve de una f
 background-attachment:fixed;
 position:relative;
 }
+
 #logo{
 
  /* background:url(./assets/Logo_Mighty ducks-01.png);
