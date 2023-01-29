@@ -1,77 +1,91 @@
-*{
-  box-sizing:border-box;
-  padding:0;
-  margin:0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-header>h1{
-font-size:5vw; /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
+header>h1 {
+  font-size: 5vw;
+  /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
 
 }
 
-.image{
-  background:url(./assets/design1_image2.jpg);
-  height:650px;
-  background-size:contain;
-  background-position:top;
-  background-repeat:no-repeat;
-background-attachment:fixed;
-position:relative;
+.image {
+  background: url(./assets/design1_image2.jpg);
+  height: 650px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
 }
 
-#logo{
+#logo {
 
- /* background:url(./assets/Logo_Mighty ducks-01.png);
+  /* background:url(./assets/Logo_Mighty ducks-01.png);
   background-repeat: no-repeat;
   background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
-  height:300px;
-  top:-25px;
-  position:relative;
+  height: 300px;
+  top: -25px;
+  position: relative;
 }
-nav{
- top:-2px;
- right:55px;
- position:absolute;
- text-align:right;
-}
-nav>a{
- background-color:rgb(108, 216, 87);
- color:white;
-  padding:10px 35px;
-  margin:12px;
-  text-decoration:none;
-  font-size:35px;
-  border:2px solid black;
-  box-shadow:4px 6px 1px gray;
-}
-.titulomain{
-  width:100%;
-  margin-bottom:60px;
-  font-size:2vw; /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
-  border:2px solid gray;
-  background-color:black;
-  color:white; 
-}
-.titulomain>h2{
-  text-align:center;
-}
-.cuerpo{
-margin-left:50px;
-display:flex;
-}
-.cuerpo2{
- font-size:30px;
-  margin-left:100px;
-}
-article>ul{
-  margin-bottom:15px;
-  list-style:none;
-}
-.about-espaciado>h2{
-margin-top:45px;
-}
-.about-espaciado>p{
 
-  text-indent:70px;
+nav {
+  top: -2px;
+  right: 55px;
+  position: absolute;
+  text-align: right;
 }
-nav >a.active{background: rgba(69, 69, 179);}
+
+nav>a {
+  background-color: rgb(108, 216, 87);
+  color: white;
+  padding: 10px 35px;
+  margin: 12px;
+  text-decoration: none;
+  font-size: 35px;
+  border: 2px solid black;
+  box-shadow: 4px 6px 1px gray;
+}
+
+.titulomain {
+  width: 100%;
+  margin-bottom: 60px;
+  font-size: 2vw;
+  /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
+  border: 2px solid gray;
+  background-color: black;
+  color: white;
+}
+
+.titulomain>h2 {
+  text-align: center;
+}
+
+.cuerpo {
+  margin-left: 50px;
+  display: flex;
+}
+
+.cuerpo2 {
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+div>ul {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.about-espaciado>h2 {
+  margin-top: 45px;
+}
+
+.about-espaciado>p {
+
+  text-indent: 70px;
+}
+
+nav>a.active {
+  background: rgba(69, 69, 179);
+}
