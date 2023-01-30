@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -18,6 +18,7 @@ header>h1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+  
 }
 
 #logo {
@@ -35,6 +36,9 @@ nav {
   right: 55px;
   position: absolute;
   text-align: right;
+  display: flex;
+  flex-direction:row;
+
 }
 
 nav>a {
@@ -46,6 +50,7 @@ nav>a {
   font-size: 35px;
   border: 2px solid black;
   box-shadow: 4px 6px 1px gray;
+  
 }
 
 .titulomain {
