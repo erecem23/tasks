@@ -12,9 +12,9 @@ header>h1 {
 
 .image {
   background: url(./assets/design1_image2.jpg);
-  height: 650px;
-  background-size: contain;
-  background-position: top;
+  height:550px;
+  background-size: 100% 100%;
+  background-position:top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
@@ -77,7 +77,7 @@ nav>a {
   margin-left: 100px;
 }
 
-div>ul {
+.lista>ul {
   margin-bottom: 15px;
   list-style: none;
 }
@@ -86,11 +86,77 @@ div>ul {
   margin-top: 45px;
 }
 
-.about-espaciado>p {
+.about-espaciado>p{
 
   text-indent: 70px;
 }
 
 nav>a.active {
   background: rgba(69, 69, 179);
+}
+
+.policy>li{
+
+  padding: 13px 13px;
+
+}
+
+
+.centrado{
+  padding:2%;
+  position: relative;
+  bottom: 41px;
+}
+.centrado>h2,h3,h4{
+  
+  text-align:center;
+  padding:10px;
+}
+
+.estructura>h3{
+  padding:19px 13px;
+  text-align: left;
+}
+
+.estructura{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  bottom: 30px;
+}
+
+.estructura>ul{
+  list-style-type:circle;
+  padding-left:12%;
+}
+.left h4,p{
+  text-align:left;
+  padding-top: 10px;
+
+}
+th{
+
+ 
+  text-align: left;
+}
+
+.flex{
+  display:flex;
+  flex-direction:column;
+}
+
+
+  table {
+    position: relative;
+    right:6%;
+   border-spacing:77px 4px;
+    table-layout:auto;
+    width:82vw;
+  }
+td{
+  width: 1.5em;
+  height: 1.5em;
+  background: #d2d2d2;
+ 
 }
