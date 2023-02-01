@@ -4,10 +4,9 @@
   margin: 0;
 }
 
-header>h1 {
+header > h1 {
   font-size: 4.5vw;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
-
 }
 
 .image {
@@ -18,7 +17,6 @@ header>h1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-
 }
 
 .inlineblock {
@@ -26,7 +24,6 @@ header>h1 {
 }
 
 #logo {
-
   /* background:url(./assets/Logo_Mighty ducks-01.png);
   background-repeat: no-repeat;
   background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
@@ -36,21 +33,16 @@ header>h1 {
 }
 
 #logo2 {
-
   /* background:url(./assets/Logo_Mighty ducks-01.png);
     background-repeat: no-repeat;
     background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
   height: 130px;
- top: -165px;
+  top: -165px;
   left: 79px;
   position: relative;
-
-
-
 }
 
 #logo3 {
-
   /* background:url(./assets/Logo_Mighty ducks-01.png);
   background-repeat: no-repeat;
   background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
@@ -58,9 +50,6 @@ header>h1 {
   top: -111px;
   left: 79px;
   position: relative;
-  
-
-
 }
 
 nav {
@@ -70,10 +59,9 @@ nav {
   text-align: right;
   display: flex;
   flex-direction: row;
-
 }
 
-nav>a {
+nav > a {
   background-color: rgb(108, 216, 87);
   color: white;
   padding: 10px 35px;
@@ -82,7 +70,6 @@ nav>a {
   font-size: 15px;
   border: 2px solid black;
   box-shadow: 4px 6px 1px gray;
-
 }
 
 .titulomain {
@@ -95,7 +82,7 @@ nav>a {
   color: white;
 }
 
-.titulomain>h2 {
+.titulomain > h2 {
   text-align: center;
 }
 
@@ -107,36 +94,31 @@ nav>a {
 .cuerpo2 {
   font-size: 20px;
   margin-left: 100px;
-
 }
 
-.cuerpo2>ul{
+.cuerpo2 > ul {
   list-style: none;
 }
-.lista>ul {
+.lista > ul {
   margin-bottom: 15px;
   list-style: none;
 }
 
-.about-espaciado>h2 {
+.about-espaciado > h2 {
   margin-top: 45px;
 }
 
-.about-espaciado>p {
-
+.about-espaciado > p {
   text-indent: 50px;
 }
 
-nav>a.active {
+nav > a.active {
   background: rgba(69, 69, 179);
 }
 
-.policy>li {
-
+.policy > li {
   padding: 13px 13px;
-
 }
-
 
 .centrado {
   padding-top: 2%;
@@ -145,16 +127,14 @@ nav>a.active {
   height: 10%;
 }
 
-.centrado>h2,
+.centrado > h2,
 h3,
 h4 {
-
   text-align: center;
   padding: 10px;
-
 }
 
-.estructura>h3 {
+.estructura > h3 {
   padding: 19px 13px;
   text-align: left;
 }
@@ -167,7 +147,7 @@ h4 {
   bottom: 60px;
 }
 
-.estructura>ul {
+.estructura > ul {
   list-style-type: circle;
   padding-left: 12%;
 }
@@ -176,7 +156,6 @@ h4 {
 p {
   text-align: left;
   padding-top: 10px;
-
 }
 
 th {
@@ -194,14 +173,14 @@ th {
   flex-direction: row;
   align-items: flex-start;
   position: relative; /* lo corrí 50 px xq sino me aparece un desbordado a la derecha al usar el flex en la página rules */
-  left: -50px; 
+  left: -50px;
 }
 
 table {
   margin-top: 20px;
   position: relative;
-  right: -25%;
-  width: 62vw;
+  right: -27%;
+  width: 61vw;
 }
 
 td {
@@ -209,10 +188,10 @@ td {
   height: 2.5em;
 }
 
-.play-means>ul {
+.play-means > ul {
   position: relative;
   left: 3%;
-  list-style-type:circle;
+  list-style-type: circle;
 }
 
 caption {
@@ -220,35 +199,34 @@ caption {
   margin-bottom: 5px;
 }
 
+.textodown > h3 {
+  margin-top: 50px;
+
+  position: relative;
+}
 
 .textodown {
- margin-top: 50px;
-  margin-left:206px;
-  position: relative;
-  left: 220px;
-
+  padding-top: 10px;
 }
-.textodown>p{
-  margin-left:10px; 
+.textodown > p {
+  margin-left: 10px;
 }
 
 .espaciado2 h3 {
-
   display: inline-block;
   margin-right: 100px;
-
 }
-#centrado-rules{
-position:relative;
-top: -60px;
-}
-
-#tabla-ubicacion{
+#centrado-rules {
   position: relative;
-  top: 40px;
+  top: -60px;
 }
-#tabla-ubicacion>h3,i{
+
+#tabla-ubicacion {
+  position: relative;
+  top: 65px;
+}
+#tabla-ubicacion > h3,
+i {
   text-align: left;
   position: relative;
-  left: 220px;
 }
