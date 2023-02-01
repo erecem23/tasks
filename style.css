@@ -5,14 +5,14 @@
 }
 
 header>h1 {
-  font-size: 5vw;
+  font-size: 4.5vw;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
 
 }
 
 .image {
   background: url(./assets/design1_image2.jpg);
-  height: 650px;
+  height: 450px;
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -26,14 +26,14 @@ header>h1 {
   /* background:url(./assets/Logo_Mighty ducks-01.png);
   background-repeat: no-repeat;
   background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
-  height: 300px;
+  height:130px;
   top: -25px;
   position: relative;
 }
 
 nav {
   top: -2px;
-  right: 55px;
+  right: 175px;
   position: absolute;
   text-align: right;
   display: flex;
@@ -44,10 +44,10 @@ nav {
 nav>a {
   background-color: rgb(108, 216, 87);
   color: white;
-  padding: 10px 35px;
+  padding: 10px 45px;
   margin: 12px;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 15px;
   border: 2px solid black;
   box-shadow: 4px 6px 1px gray;
   
@@ -56,7 +56,7 @@ nav>a {
 .titulomain {
   width: 100%;
   margin-bottom: 60px;
-  font-size: 2vw;
+  font-size: 1.5vw;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
   border: 2px solid gray;
   background-color: black;
@@ -73,7 +73,7 @@ nav>a {
 }
 
 .cuerpo2 {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 100px;
 }
 
