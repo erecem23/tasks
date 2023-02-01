@@ -11,8 +11,8 @@ header>h1 {
 }
 
 .image {
-  background: url(/assets/img/design1_image2.jpg);
-  height: 450px;
+  background: url(../img/design1_image2.jpg);
+  height: 400px;
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
