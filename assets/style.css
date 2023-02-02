@@ -8,11 +8,14 @@ desarrollado en un monitor FHD (1980x1080) por ahí en otra resolución puede qu
   padding: 0;
   margin: 0;
 }
+
+
 body{
-  font-family: "Comic Sans", cursive;
+  font-family: sans-serif;
 }
+
 header>h1 {
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-style: oblique;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
 }
@@ -61,7 +64,7 @@ header>h1 {
 }
 
 nav {
-  top: -27px;
+  top: -25px;
   right: 55px;
   position: absolute;
   text-align: right;
@@ -73,12 +76,13 @@ nav {
 nav>a {
   background-color: rgb(108, 216, 87);
   color: white;
-  padding: 10px 32px;
+  padding: 3px 14px;
   margin: 12px;
   text-decoration: none;
-  font-size: 0.9vw;
+  font-size:20px;
   border: 2px solid black;
   box-shadow: 4px 6px 1px gray;
+  
 }
 
 .titulomain {
