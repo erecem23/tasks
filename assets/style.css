@@ -1,11 +1,16 @@
+/*
+desarrollado en un monitor FHD (1980x1080) por ahí en otra resolución puede que se vea levemente distinto, especialmente la ubicación de la tabla o el tamaño de los elementos ya que se trabajó mayormente con px.
+*/
+
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-header > h1 {
-  font-size: 4.5vw;
+header>h1 {
+  font-size: 4.3vw;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
 }
 
@@ -53,7 +58,7 @@ header > h1 {
 }
 
 nav {
-  top: -2px;
+  top: -27px;
   right: 55px;
   position: absolute;
   text-align: right;
@@ -61,7 +66,7 @@ nav {
   flex-direction: row;
 }
 
-nav > a {
+nav>a {
   background-color: rgb(108, 216, 87);
   color: white;
   padding: 10px 35px;
@@ -82,7 +87,7 @@ nav > a {
   color: white;
 }
 
-.titulomain > h2 {
+.titulomain>h2 {
   text-align: center;
 }
 
@@ -96,27 +101,29 @@ nav > a {
   margin-left: 100px;
 }
 
-.cuerpo2 > ul {
+.cuerpo2>ul {
   list-style: none;
+  margin-bottom: 21px;
 }
-.lista > ul {
+
+.lista>ul {
   margin-bottom: 15px;
   list-style: none;
 }
 
-.about-espaciado > h2 {
+.about-espaciado>h2 {
   margin-top: 45px;
 }
 
-.about-espaciado > p {
+.about-espaciado>p {
   text-indent: 50px;
 }
 
-nav > a.active {
+nav>a.active {
   background: rgba(69, 69, 179);
 }
 
-.policy > li {
+.policy>li {
   padding: 13px 13px;
 }
 
@@ -127,14 +134,14 @@ nav > a.active {
   height: 10%;
 }
 
-.centrado > h2,
+.centrado>h2,
 h3,
 h4 {
   text-align: center;
   padding: 10px;
 }
 
-.estructura > h3 {
+.estructura>h3 {
   padding: 19px 13px;
   text-align: left;
 }
@@ -147,7 +154,7 @@ h4 {
   bottom: 60px;
 }
 
-.estructura > ul {
+.estructura>ul {
   list-style-type: circle;
   padding-left: 12%;
 }
@@ -172,7 +179,8 @@ th {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  position: relative; /* lo corrí 50 px xq sino me aparece un desbordado a la derecha al usar el flex en la página rules */
+  position: relative;
+  /* lo corrí 50 px xq sino me aparece un desbordado a la derecha al usar el flex en la página rules */
   left: -50px;
 }
 
@@ -188,7 +196,7 @@ td {
   height: 2.5em;
 }
 
-.play-means > ul {
+.play-means>ul {
   position: relative;
   left: 3%;
   list-style-type: circle;
@@ -199,7 +207,7 @@ caption {
   margin-bottom: 5px;
 }
 
-.textodown > h3 {
+.textodown>h3 {
   margin-top: 50px;
 
   position: relative;
@@ -208,7 +216,8 @@ caption {
 .textodown {
   padding-top: 10px;
 }
-.textodown > p {
+
+.textodown>p {
   margin-left: 10px;
 }
 
@@ -216,6 +225,7 @@ caption {
   display: inline-block;
   margin-right: 100px;
 }
+
 #centrado-rules {
   position: relative;
   top: -60px;
@@ -225,7 +235,8 @@ caption {
   position: relative;
   top: 65px;
 }
-#tabla-ubicacion > h3,
+
+#tabla-ubicacion>h3,
 i {
   text-align: left;
   position: relative;
