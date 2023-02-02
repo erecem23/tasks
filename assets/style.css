@@ -8,9 +8,12 @@ desarrollado en un monitor FHD (1980x1080) por ahí en otra resolución puede qu
   padding: 0;
   margin: 0;
 }
-
+body{
+  font-family: "Comic Sans", cursive;
+}
 header>h1 {
-  font-size: 4.3vw;
+  font-size: 4vw;
+  font-style: oblique;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
 }
 
@@ -42,7 +45,7 @@ header>h1 {
     background-repeat: no-repeat;
     background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
   height: 130px;
-  top: -165px;
+  top: -177px;
   left: 79px;
   position: relative;
 }
@@ -52,7 +55,7 @@ header>h1 {
   background-repeat: no-repeat;
   background-size: contain;    !!!desaparece la imagen si la uso y aplico display flex o inline block*/
   height: 130px;
-  top: -111px;
+  top: -115px;
   left: 79px;
   position: relative;
 }
@@ -64,15 +67,16 @@ nav {
   text-align: right;
   display: flex;
   flex-direction: row;
+  
 }
 
 nav>a {
   background-color: rgb(108, 216, 87);
   color: white;
-  padding: 10px 35px;
+  padding: 10px 32px;
   margin: 12px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 0.9vw;
   border: 2px solid black;
   box-shadow: 4px 6px 1px gray;
 }
@@ -80,7 +84,7 @@ nav>a {
 .titulomain {
   width: 100%;
   margin-bottom: 60px;
-  font-size: 1.5vw;
+  font-size: 1vw;
   /* lo deje en vw porque si me fijo en mi pc con px se ve de una forma con el monitor y en la note que uso otra resolución se ve más gigante*/
   border: 2px solid gray;
   background-color: black;
@@ -228,7 +232,7 @@ caption {
 
 #centrado-rules {
   position: relative;
-  top: -60px;
+  top: -61px;
 }
 
 #tabla-ubicacion {
