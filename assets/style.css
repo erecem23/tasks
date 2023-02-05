@@ -249,3 +249,19 @@ i {
   text-align: left;
   position: relative;
 }
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+fieldset{
+  border: none;
+  margin-bottom: 20px;
+}
+fieldset>legend{
+  
+  margin-bottom: 10px;
+}
+
