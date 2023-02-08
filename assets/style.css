@@ -295,6 +295,7 @@ form p {
 
   margin-bottom: 10px;
   text-align: justify;
+  width: 80vw;
 }
 
 form input {
@@ -318,6 +319,8 @@ nav {
  iframe {
    height: 200px;
  }
-
+ form p {
+  width: 80%;
+   
+ }
 }
-
